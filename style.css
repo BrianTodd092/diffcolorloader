@@ -1,0 +1,144 @@
+.loader {
+display:flex;
+flex-wrap:nowrap;
+position:relative;
+visibility: hidden;
+margin-left: 45%;
+margin-top: 15%;
+}
+
+.one {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  animation: square 4.5s;
+  animation-iteration-count: 1;
+
+}
+
+.two {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  animation: second 3s;
+  animation-delay: 1.5s;
+  animation-iteration-count: 1;
+}
+
+.three {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  animation: third 2.5s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+
+.four {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  animation: fourth 2s;
+  animation-delay: 2.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes square {
+   from {background-color:#d3d3d3;}
+   to {background-color:#98ff98;}
+
+}
+
+@keyframes second {
+   from {background-color:#d3d3d3;}
+   to {background-color:#98ff98;}
+
+}
+@keyframes third {
+   from {background-color:#d3d3d3;}
+   to {background-color:#98ff98;}
+
+}
+@keyframes fourth {
+   from {background-color:#d3d3d3;}
+   to {background-color:#98ff98;}
+
+}
+.wrapper {
+display:flex;
+flex-wrap:nowrap;
+position:relative;
+visibility: hidden;
+margin-left: 45%;
+margin-top: 8%;
+
+}
+.five {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  border-radius: 50%;
+  animation: fifth 4.5s;
+  animation-iteration-count: 1;
+}
+.six {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  border-radius: 50%;
+  animation: sixth 3s;
+  animation-delay: 1.5s;
+  animation-iteration-count: 1;
+}
+.seven {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  border-radius: 50%;
+  animation: seventh 2.5s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+.eight {
+
+  width:15px;
+  height:15px;
+  margin-left:2%;
+  border-radius: 50%;
+  animation: eighta 2s;
+  animation-delay: 2.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fifth {
+   from {background-color:#d3d3d3;}
+   to {background-color:#000000;}
+
+}
+
+@keyframes sixth {
+   from {background-color:#d3d3d3;}
+   to {background-color:#000000;}
+
+}
+@keyframes seventh {
+   from {background-color:#d3d3d3;}
+   to {background-color:#000000;}
+
+}
+@keyframes eighta {
+   from {background-color:#d3d3d3;}
+   to {background-color:#000000;}
+
+}
+
+.ns {
+  color:red;
+}
